@@ -1,0 +1,6 @@
+{
+  "name": "Tumbasna",
+  "description": "Aplikasi Transaksi UMKM Berbasis Niaga Aman untuk pembeli (buyer) dalam ekosistem bahan baku berkualitas.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-poppins: "Poppins", "Space Grotesk", sans-serif;
+  
+  --color-brand-orange: #C85A32;
+  --color-brand-green-dark: #1A291E;
+  --color-brand-green-light: #5B7A60;
+  --color-brand-bg: #FAF7F2;
+  --color-brand-accent-blue: #32506E;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-green-dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars for a neat, print-magazine feel in preview containers */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-green-light);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-green-dark);
+}
+
